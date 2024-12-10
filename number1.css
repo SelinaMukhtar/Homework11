@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-color: #141414;
+    
+}
+
+header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+
+.menu a:hover {
+    color: rgba(17, 141, 168, 1);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.image {
+    width: 650px;
+    height: 873.44px;
+
+}
+
+
+
+.content {
+    max-width: 500px;
+
+}
+
+.content h2 {
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    line-height: 88px;
+    margin-top: 300px;
+margin-bottom: 80px;
+font-family: "DM Sans", sans-serif;
+
+}
+
+.content h2 span {
+font-size: 75px;
+font-weight: 400;
+font-family: "DM Sans", sans-serif;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.platforms {
+    margin-top: 20px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+    gap: 20px;
+}
+
+.page-two {
+    background-color: #141414;
+    height: 2088px;
+    width: 1440px;
+    padding: 20px;
+}
+
+.latest-episodes h1 {
+    font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 2.88px;
+  margin-bottom: 40px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 6px;
+}
+
+
+.episode-card {
+    display: flex;
+    background-color: #1e1e1e;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 1300px;
+    height: 545px;
+    margin-bottom: 10%;
+}
+
+
+.episode-image {
+    width: 389px;
+    height: 465px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.episode-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.episode-tag {
+    background-color: #191919;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 60px;
+    align-self: start;
+   
+}
+
+.episode-tag:hover {
+    background-color: #118DA8;
+}
+
+.episode-content  {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+
+.paragraph {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFFB2;
+
+  }
+
+  .episode-button {
+    background-color: #118DA8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: start;
+  }
+
+  .episode-button:hover {
+    background-color: #0088cc;
+    font-weight: 400;
+  }
+
+.episode-paragraph {
+    color: #118DA8;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 27px;
+    letter-spacing: 1px;
+}
+
+.episode-content h2 {
+    font-family: "DM Sans", sans-serif;
+    line-height: 70.4px;
+    font-size: 64px;
+    letter-spacing: 2.56px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.page-three {
+    width: 1400px;
+    height: 900px;
+}
+
+
+
+.episode-card2 {
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 1300px;
+    height: 545px;
+    margin-bottom: 10%;
+}
+
+.sign {
+    width: 60px;
+    height: 60px;
+}
+
+
+.episode-content2 {
+
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+
+.episode-content2 h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.text-1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFFB2;
+}
+
+.text-2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFFB2;
+     
+}
+
+
+.episode-2-image {
+
+     width: 650px;
+     height: 750px;
+     border-radius: 12px;
+     margin-right: 40px;
+     margin-top: 5%;
+}
+
+
+.page-three {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Темный фон */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    background-color: #000000;
+    padding: 40px 40px;
+    border-radius: 32px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+/* Текстовая часть */
+.text-section {
+    max-width: 300px;
+  }
+  
+  .text-section h1 {
+    margin: 0px 16px 10px;
+    font-size: 72px;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 2.88px;
+    line-height: 79.2px;
+    font-weight: 100;
+  }
+  
+  .text-section p {
+    margin: 0px 16px 10px;
+    font-size: 18px;
+    color: #118DA8; /* Голубой акцент */
+    font-family: "DM Sans", sans-serif;
+    line-height: 27px;
+  }
+  
+  /* Форменная часть */
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-section input {
+    padding: 10px 15px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #191919;
+    color: #FFFFFFB2;
+    outline: none;
+    line-height: 28.8px;
+    width: 400px;
+    height: 50px;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .form-section button {
+    padding: 10px 15px;
+    background-color: #118DA8;
+    color: #FFFFFFB2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    width: 80px;
+    height: 45px;
+    line-height: 28.8px;
+    font-weight: 200;
+
+  }
+  
+  .form-section button:hover {
+    background-color: #00a3cc;
+  }
+
+
+.page-four {
+
+max-width: 1400px;
+margin: auto;
+padding: 20px;
+
+}
+
+.parent-box {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+gap: 15px;
+
+}
+
+.child-one {
+
+width: 30%;
+height: 321px;
+border-radius: 32px;
+background-color: #000000;
+justify-content: center;
+padding: 15px;
+display: flex;
+flex-direction: column;
+
+}
+
+.child-one h2 {
+
+        font-family: "DM Sans", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43.2px;
+        
+        
+
+}
+
+
+.child-one p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    color: #FFFFFFB2;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-top: auto;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 20%;
+    height: 438px;
+    width: 30%;
+    
+}
+
+.main-box {
+
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    justify-content: space-between;
+   
+}
+
+
+.medias {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.icon-apps {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.logo-1 {
+    width: 224px;
+    height: 46px;
+    display: flex;
+    margin-right: -20px;
+    
+}
+
+.apps {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: -90px;
+}
+
+.apps img {
+    width: 24px;
+    height: 24px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+    gap: 10px;
+    
+}
+
+.options a {
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFF;
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 100;
+
+}
+
+
+.information {
+
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+    gap: 10px;
+        
+}
+
+.information a {
+
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFF;
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+
+.information a:hover {
+    color: #118DA8;
+}
+
+
+
+.design-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+    
+}
+
+
